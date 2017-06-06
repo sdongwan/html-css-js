@@ -1,0 +1,240 @@
+/*		左边tab search	*/
+		#search_tab_qq{
+			width: 980px;
+			padding: 0px;
+			margin: 0px auto;
+		}
+
+		.search{
+
+			width: 233px;
+			
+			margin-top: 10px;
+			float: left;
+		}
+
+
+		.search_1{
+			width: 233px;
+			height: 30px;
+			background:url(../images/picture.jpg) no-repeat;
+
+		}
+
+		.search_1 h1{
+			font-size: 15px;
+			color: #026cc4;
+			text-align: left;
+			line-height: 30px;
+			text-indent: 20px;//设置内容缩进
+		}
+
+		.search_2{
+
+			width: 299px;
+			height: 250px;
+			border:1px solid;
+			border-color: #aaa;
+			border-top: none;
+			background: #fff;
+			background-color: #0099ff;
+		}
+
+
+		.search_2 ul{
+
+			width: 210px;
+			padding-left: 10px;
+			padding-top: 15px;
+			list-style: none;
+		}
+
+		.search_2 ul li{
+			width: 220px;
+			height: 39px;
+			font-size: 14px;
+
+		}
+
+		.searchbutton{
+			display: block;
+			margin-left: 60px;
+		}
+
+
+
+
+		/*		中间tab		*/
+
+
+		#Tab{
+
+			margin: 10px 0px 0px 10px;
+			width: 423px;
+
+			height: 280px;
+			border:1px solid #000;
+			float: left;
+
+		}
+		#menubox{
+
+			height: 42px;
+			border-bottom: 1px solid #15a8eb;
+			background: #15a8eb；
+			/*float:left;*/
+
+		}
+
+
+		#menubox ul{
+			list-style: none;
+			margin: 7px 10px ;
+			padding: 0;
+			position: absolute;
+
+
+		}
+
+		#menubox ul li{
+
+			float: left;
+			background: #64b8e4;
+			line-height: 34px;
+			display: block;
+			color: pointer;
+			width: 100px;
+			text-align: center;
+			color: #fff;
+			font-weight: solid;
+			border-top: 1px solid #64b8e4;
+			border-left: 1px solid #64b8e4;
+			border-right:  1px solid #64b8e4;
+		}
+
+		#menubox ul li:hover{
+			background: #fff;
+			border-bottom: 1px solid #fff;
+			color: #147ab8;
+
+		}
+
+		#contentbox {
+			float: left;
+			/*clear: both; //清除全部样式 */
+			margin-top: 0px;
+			border-top: none;
+			height: 181px;
+			padding-top: 8px;
+
+		}
+
+
+		#contentbox ul{
+
+			list-style: none;
+			margin: 7px;
+			padding: 0;
+
+		}
+
+		#contentbox ul li{
+
+			line-height: 24px;
+			border-bottom: 1px dotted #ccc;
+			text-align: left;
+			list-style-type: circle;
+			margin-left: 15px;
+		}
+
+
+
+		/*			右边qq咨询		*/
+		.qq_main{
+
+			width: 300px;
+			height: 280px;
+			margin-left: 10px;
+			border:1px solid #aaa;
+			margin: 10px 0px 0px 10px;
+			float: left;
+		}
+		.qq_main .r_box{
+
+			width: 300px;
+			height: 280px;
+			border:1px solid #e6e6e6;
+			border-left: none;
+			border-top: none;
+			float: left;
+		}
+
+		.r_box .alik{
+
+			height: 43px;
+		}
+
+		.r_box .alink a{
+			display: inline-block;
+			float: left;
+			width: 150px;
+			height: 43px;
+			line-height: 43px;
+			color: #fff;
+			text-align: center;
+			text-decoration: none;
+			font-size: 16px;
+
+		}
+
+		/*选择a标签class为qqde*/
+		.r_box .alink a.qq{
+
+			background: #0097e0;
+
+		}
+
+		.r_box .alink a.tel{
+			background: #f90;
+		}
+
+
+		.r_box .alink a:hover{
+
+			opacity: 0.9;
+		}
+
+
+
+
+		.r_box ul li{
+			width: 195px;
+			float: left;
+			padding:10px 20px;
+			border-bottom: 1px solid #eee;
+			font-size: 14px;
+			line-height: 23px;
+		}
+
+
+		.r_box ul li i{
+
+			width: 56px;
+			display: block;
+			font-size: 14px;
+			line-height: 23px;
+			float: left;
+		}
+
+
+		.r_box ul li span{
+
+			width: 138px;
+			float: left;
+			word-break: normal;
+
+		}
+
+		.r_box ul li p{
+			color: #0097e0;
+		}

@@ -1,0 +1,90 @@
+	.banner{
+			height: 237px;
+			background: url(../images/picture.jpg)  no-repeat;
+			position: relative;
+		}
+		.top_links{
+			width: 100%;
+			min-height: 40px;
+			background-color: #565656;
+			font-size: 14px;
+			color: #fff;
+
+		}
+
+		.top_links .contact_info {
+
+			padding: 0px;
+			margin: 7px 0px 0px 0px;
+			float: right;
+
+
+		}
+
+		.top_links .contact_info ul{
+
+			padding: 0px;
+			margin: 0px;
+			float: left;
+
+
+		}
+
+		.top_links .contact_info li{
+			padding: 0px;
+			margin: 0px 0px 0px 10px;
+			float: left;
+			list-style: none;
+
+		}
+
+		.top_links .contact_info li a{
+			padding: 0px;
+			margin: 0px;
+			float: left;
+			color: #fff
+
+		}
+		.top_links .contact_info li a:hover{
+			color: #33c92b;
+		}
+
+		.nav_menu{
+			width: 980px;
+			margin: 0px auto;
+			height: 46px;
+			border-radius: 8px;
+			border:1px solid #cbcbcb;
+			border-bottom: 4px solid #adadad;
+
+			font:bold 16px/36px Microsoft Yahei;
+
+		}
+
+		.nav_menu a{
+			display: block;
+			width: 16.6%;
+			height: 46px;
+			line-height: 46px;
+			float: left;
+			border-bottom: 4px solid #adadad
+			text-align:center;
+			text-decoration: none;
+			color: #3b4053;
+
+		}
+
+		.nav_menu a:first-child{
+			border-radius: 0 0 0 2px;
+		}
+
+		.nav_menu a:last-child{
+			border-radius: 0 0  2px 0;
+		}
+
+
+		.nav_menu a:hover{
+
+			border-bottom: 4px solid #1a54a4;
+			color: #15a8eb;
+		}

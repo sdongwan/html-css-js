@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dynamic web</title>
+	<style type="text/css">
+		@import url(css/dyn_header.css);
+		@import url(css/section1.css);
+		@import url(css/contact.css);
+		@import url(css/jp.css);
+		@import url(css/footer.css);
+
+		
+
+	</style>
+}
+
+
+</head>
+<body>
+	<header>
+		<nav class="top_links">
+			<div class="container">
+				<div class="contact_info">
+					<ul>
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#">站点帮助</a></li>
+						<li><a href="#">问题反馈</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<nav class="main">
+			<div class ="banner">
+
+			</div>
+
+			<div class="nav_menu">
+				<a href="#"> 首页</a>
+				<a href="#"> 精品推荐</a>
+				<a href="#"> 旅游快讯</a>
+				<a href="#"> 特色线路</a>
+				<a href="#"> 特色景点</a>
+				<a href="#"> 特色美食</a>
+			</div>
+		</nav>
+
+
+	</header>
+
+	<section class="leftnav_focusimg">
+		<aside class ="left_nav">
+
+			<div class="sidebar">
+				<h2>全部旅游产品分类</h2>
+				<ul id="menu">
+					<li><a href="#">市内旅游</a>
+						<div class="cms_submenu">
+							<div class="cmsmenuleft">
+
+								<dl class="menu_recommed">
+									<dt>热门类目</dt>
+									<dd>
+										<i><a href="#" target="_blank">广场游</a></i>
+										<i><a href="#" target="_blank">滨海游</a></i>
+										<i><a href="#" target="_blank">公园游</a></i>
+										<i><a href="#" target="_blank">老建筑游</a></i>
+										<i><a href="#" target="_blank">特色景点游</a></i>
+									</dd>
+									<div class="clear"></div>
+								</dl>
+
+								<dl class="menu_new">
+									<dt>活动推荐</dt>
+									<dd>
+										<a href="#">广州四日游</a>
+										<a href="#">广州四日游</a>
+										<a href="#">广州四日游</a>
+									</dd>
+
+								</dl>
+
+							</div>
+							<div class="clear"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		<nav>
+			<script type="text/javascript">
+				var _t1=0
+				var _t2=5;
+				var _tnum=3;
+				var _tn=1;
+				var _tt1=null;
+				_tt1=setTimeout('change_img()',_t1*1000);
+				function change_img(){
+
+					setFocus(_tn);
+					// _tt1=setTimeout('change_img()',_t2*1000);
+				}
+
+				function setFocus(i){
+					if(i>_tnum){
+						_tn=1;
+						i=1;
+					}
+
+					_t1? document.getElementById('focusPic'+_tn).style.display='none':'';
+					document.getElementById('focusPic'+i).style.display='block';
+					_t1=i;
+					_tn++;
+				}
+
+
+
+			</script>
+
+			<div id ="focusPic1">
+				<a href="#" class="i_photo_a" target="_blank">
+					<img src="images/picture.jpg" width="770px" alt="老虎海滩公园"/> 
+
+				</a>
+
+				<h2>
+					<a href="#">老虎海滩公园</a>
+				</h2>
+
+				<div id="index_page">
+					<span onclick="javascript:setFocus(2);">点击切换</span>
+					<strong>1</strong>
+					<a href="javascript:setFocus(2);">2</a>
+					<a href="javascript:setFocus(3);">3</a>
+
+				</div>
+			</div>
+
+			<div id ="focusPic2" style="display: none;">
+				<a href="#" class="i_photo_a" target="_blank">
+					<img src="images/picture.jpg" width="770px" alt="老虎海滩公园"/> 
+
+				</a>
+
+				<h2>
+					<a href="#">老虎海滩公园</a>
+				</h2>                                                
+
+				<div id="index_page">
+					<span onclick="javascript:setFocus(3);">点击切换</span>
+					
+					<a href="javascript:setFocus(1);">1</a>
+					<strong>2</strong>
+					<a href="javascript:setFocus(3);">3</a>
+
+				</div>
+			</div>
+			<div id ="focusPic1" style="display: none;">
+				<a href="#" class="i_photo_a" target="_blank">
+					<img src="images/picture.jpg" width="770px" alt="老虎海滩公园"/> 
+
+				</a>
+
+				<h2>
+					<a href="#">老虎海滩公园</a>
+				</h2>
+
+				<div id="index_page">
+					<span onclick="javascript:setFocus(1);">点击切换</span>
+					<a href="javascript:setFocus(1);">1</a>
+					<a href="javascript:setFocus(2);">2</a>
+					<strong>3</strong>
+
+				</div>
+			</div>
+
+		</nav>
+
+
+
+	</section >
+
+	<section id="search_tab_qq">
+		<div class="search">
+			<div class="search_1">
+
+				<h1>快捷搜索</h1>
+			</div>
+
+			<form id="form1" method="get" action="#">
+				<div class="search_2">
+					<ul>
+						<li>
+							<span>
+								线路名称
+							</span>
+							<input type="text" name="Name" style="width: 130px;" value=""/>
+
+						</li>
+
+						<li>
+							<span>
+								行程目的地
+							</span>
+							<input type="text" name="EndCity" style="width: 118px;" value=""/>
+
+						</li>
+						<li>
+							<span>
+								行程天数
+							</span>
+							<select name="PlanDays" style="width: 133px" >
+								<option>不限</option>
+								<option>一日游</option>
+								<option>三日游</option>
+								<option>七日游</option>
+							</select>
+
+						</li>
+
+						<li>
+							<span>
+								起始日期
+							</span>
+							<input type="date" name="StartDate" style="width: 130px;" value="2015-11-20"/>
+
+						</li>
+
+
+						<li>
+							<span>
+								终止日期
+							</span>
+							<input type="date" name="EndDate" style="width: 130px;" value="2015-11-20"/>
+
+						</li>
+					</ul>
+
+					<a href="#"><img src="images/picture.jpg" style="width: 96px;height: 28px"  class="searchbutton" /></a>
+
+				</div>
+
+
+			</form>
+
+
+		</div>
+
+
+
+		<script type="text/javascript">
+
+			function setTab(name,cursel,n){
+
+				for(i=1;i<=n;i++){
+					var menu =document.getElementById(name+i);
+					var con=document.getElementById("con_"+name+"_"+i);
+					menu.className=i==cursel?"hover":"";
+					con.style.display=i==cursel?"block":"none";
+				}
+
+			}
+
+		</script>
+
+
+		<div id="Tab">
+			<div id="menubox">
+				<ul>
+					<li id="menu1" onmouseover="setTab('menu',1,2)" class="hover">旅游快讯</li>
+					<li id="menu2" onmouseover="setTab('menu',2,2)">优惠活动</li>
+				</ul>
+			</div>
+
+			<div id="contentbox">
+				<div id="con_menu_1" class="hover">
+
+					<ul>
+						<li><a href="#">王国1</a></li>
+						<li><a href="#">王国1</a></li>
+						<li><a href="#">王国1</a></li>
+						<li><a href="#">王国1</a></li>
+					</ul>
+
+				</div>
+				<div id="con_menu_2" style="display: none;" ">
+
+					<ul>
+						<li><a href="#">王国2</a></li>
+						<li><a href="#">王国2</a></li>
+						<li><a href="#">王国2</a></li>
+						<li><a href="#">王国2</a></li>
+					</ul>
+
+				</div>
+
+			</div>
+
+
+		</div>
+
+
+
+		<div class="qq_main">
+			<div class="r_box flet" >
+
+				<div class="alink">
+					<a href="#" class="qq" target="_blank">QQ咨询</a>
+					<a href="#" class="tel" target="_blank">在线咨询</a>
+
+				</div>
+
+
+
+				<ul>
+					<li>
+						<p>电话咨询10086</p>
+						<i>办公室：10086</i>
+					</li>
+
+					<li>
+						<p>电话咨询10086</p>
+						<i>办公室：10086</i>
+					</li>
+
+				</ul>
+
+			</div>
+		</div>
+		<div class="clear"></div>
+
+	</section>
+
+	<section class="main-jp">
+		<h1 class="title">精品推荐</h1>
+		<ul class="fright">
+			<li>
+				<a href="#" target="_blank">
+					<div class="pic">
+						<img src="images/picture.jpg" style="width: 200px; height:200px;"/>
+
+					</div>
+					<h3>
+						来XXX这里玩
+					</h3>
+					<h4>
+						团购报价
+					</h4>
+					<p>
+						<b class="fleft"> 行程天数：2天</b>
+						<span class="fright" >
+							￥<em>280</em>
+						</span>
+					</p>
+				</a>
+
+			</li>
+			<li>
+				<a href="#" target="_blank">
+					<div class="pic">
+						<img src="images/picture.jpg" style="width: 200px; height:200px;"/>
+
+					</div>
+					<h3>
+						来XXX这里玩
+					</h3>
+					<h4>
+						团购报价
+					</h4>
+					<p>
+						<b class="fleft"> 行程天数：2天</b>
+						<span class="fright" >
+							￥<em>280</em>
+						</span>
+					</p>
+				</a>
+
+			</li>
+
+
+			<li>
+				<a href="#" target="_blank">
+					<div class="pic">
+						<img src="images/picture.jpg" style="width: 200px; height:200px;"/>
+
+					</div>
+					<h3>
+						来XXX这里玩
+					</h3>
+					<h4>
+						团购报价
+					</h4>
+					<p>
+						<b class="fleft"> 行程天数：2天</b>
+						<span class="fright" >
+							￥<em>280</em>
+						</span>
+					</p>
+				</a>
+
+			</li>
+
+			<li>
+				<a href="#" target="_blank">
+					<div class="pic">
+						<img src="images/picture.jpg" style="width: 200px; height:200px;"/>
+
+					</div>
+					<h3>
+						来XXX这里玩
+					</h3>
+					<h4>
+						团购报价
+					</h4>
+					<p>
+						<b class="fleft"> 行程天数：2天</b>
+						<span class="fright" >
+							￥<em>280</em>
+						</span>
+					</p>
+				</a>
+
+			</li>
+
+			<li>
+				<a href="#" target="_blank">
+					<div class="pic">
+						<img src="images/picture.jpg" style="width: 230px; height:200px;"/>
+
+					</div>
+					<h3>
+						来XXX这里玩
+					</h3>
+					<h4>
+						团购报价
+					</h4>
+					<p>
+						<b class="fleft"> 行程天数：2天</b>
+						<span class="fright" >
+							￥<em>280</em>
+						</span>
+					</p>
+				</a>
+
+			</li>
+
+			<li>
+				<a href="#" target="_blank">
+					<div class="pic">
+						<img src="images/picture.jpg" style="width: 200px; height:200px;"/>
+
+					</div>
+					<h3>
+						来XXX这里玩
+					</h3>
+					<h4>
+						团购报价
+					</h4>
+					<p>
+						<b class="fleft"> 行程天数：2天</b>
+						<span class="fright" >
+							￥<em>280</em>
+						</span>
+					</p>
+				</a>
+
+			</li>
+			<li>
+				<a href="#" target="_blank">
+					<div class="pic">
+						<img src="images/picture.jpg" style="width: 200px; height:200px;"/>
+
+					</div>
+					<h3>
+						来XXX这里玩
+					</h3>
+					<h4>
+						团购报价
+					</h4>
+					<p>
+						<b class="fleft"> 行程天数：2天</b>
+						<span class="fright" >
+							￥<em>280</em>
+						</span>
+					</p>
+				</a>
+
+			</li>
+			<li>
+				<a href="#" target="_blank">
+					<div class="pic">
+						<img src="images/picture.jpg"/>
+
+					</div>
+					<h3>
+						来XXX这里玩
+					</h3>
+					<h4>
+						团购报价
+					</h4>
+					<p>
+						<b class="fleft"> 行程天数：2天</b>
+						<span class="fright" >
+							￥<em>280</em>
+						</span>
+					</p>
+				</a>
+
+			</li>
+		</ul>
+	</section>
+
+
+	<footer class="footer">
+		<div class="footer_center">
+
+			<div class="container">
+				<div class="one_fourth">
+					<h3>关于我们</h3>
+					<ul class="list">
+
+						<li>
+							<a href="#">花花介绍</a>
+						</li>
+						<li>
+							<a href="#">招贤纳士</a>
+						</li>
+						<li>
+							<a href="#">联系我们</a>
+						</li>
+					</ul>
+
+				</div>
+
+
+				<div class="one_fourth">
+
+					<h3>合作伙伴</h3>
+					<ul class="list">
+
+						<li>
+							<a href="#">国家旅游局</a>
+						</li>
+						<li>
+							<a href="#">人民网旅局</a>
+						</li>
+						<li>
+							<a href="#">光明网旅局</a>
+						</li>
+						<li>
+							<a href="#">央视网旅局</a>
+						</li>
+					</ul>
+
+				</div>
+				<div class="one_fourth">
+
+					<h3>出境游和港澳游尝试</h3>
+					<ul class="list">
+
+						<li>
+							<a href="#" title="办理护照">如何办理护照</a>
+						</li>
+						<li>
+							<a href="#" title="办理签证">如何办理签证</a>
+						</li>
+						<li>
+							<a href="#">如何办理签证</a>
+						</li>
+						<li>
+							<a href="#">如何办理签证</a>
+						</li>
+					</ul>
+
+				</div>
+
+				<div class="one_fourth last">
+					<h3>关注我们</h3>
+					<div>
+						<a href="#"><img src="images/picture.jpg" style="width: 100px;height: 100px;"></a>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="copyright_info">
+				<div class="container">
+					<div>
+						Copyright2015<a href="#">网络工程</a>
+					</div>  
+
+				</div>
+
+			</div>
+		</div>
+
+
+	</footer>
+</body>
+</html>

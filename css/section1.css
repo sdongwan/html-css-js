@@ -1,0 +1,191 @@
+
+		.leftnav_focusimg{
+			width: 980px;
+			padding: 0px;
+			margin:0px auto;
+		}
+
+		.left_nav{
+			background: #0099ff;
+			width: 190px;
+			padding: 1px;
+			z-index: 1;
+			float: left;
+		}
+
+		.sidebar{
+			background: #0099ff;
+			width: 190px;
+			padding: 1px;
+			margin: 0px 10px 0px 1px;
+			z-index: 1;
+			float: left;
+		}
+
+		.sidebar h2{
+
+			color: #fff;
+			font-size: 14px;
+			line-height: 30px;
+			text-align: center;
+		}
+
+		#menu{
+
+			width: 190px;
+			background: #fff;
+			padding: 8px 0;
+		}
+
+		#menu li{
+			float: left;
+			width: 146px;
+			display: block;
+			text-align: left;
+			padding-left: 40px;
+			background: #fff;
+			position: relative;;
+			border-bottom: #ffeef4 1px solid;
+			height: 42px;
+			vertical-align: middle;
+			text-decoration: none;
+
+
+		}
+
+		#menu li:hover{
+			background: #0099ff;
+		}
+
+
+		#menu li a{
+
+			font-size: 14px;
+			color: #3b4053;
+			display: block;
+			text-decoration: none;
+			line-height: 28px;
+		}
+		#menu li:hover a{
+			color: #fff;
+		}
+
+		#menu li:hover div a{
+			font-size: 12px;
+			color: #3b4053;
+			line-height: 16px;
+		}
+
+
+		#menu li:hover div a:hover{
+
+			color: #cc0000;
+
+		}
+
+		#menu li:hover div .cms_submenu{
+
+			left: 186px;
+			top: 0px;
+		}
+
+		.cms_submenu{
+			float: left;
+			position: absolute;
+			left: -999em;
+			text-align: left;
+			border-left: 6px solid #0099ff;
+			border-top: 2px solid #0099ff;
+			border-bottom: 2px solid #0099ff;
+			border-right: 2px solid #0099ff;
+			width: 500px;
+			background: #fff;
+			padding: 5px 0 5px ;
+			z-index: 1;
+		}
+
+
+
+		.cmsmenuleft{
+			float: left;
+			width: 500px;
+			color: #ccc;
+			padding: 5px;
+			z-index: 1;
+		}
+
+		.cmsmenuleft dt {
+			font-weight: bold;
+			color: #0099ff;
+			margin: 5px 0;
+			padding: 3px 0 3px 10px;
+			text-align: left;
+		}
+
+		.cmsmenuleft dt  i{
+			float: left;
+			padding: 0 8px;
+			margin: 3px 0;
+			white-space: nowrap;
+			border-right: 1px solid #ccc;
+
+		}
+
+		.menu_new dd{
+			padding-left: 8px;
+
+		}
+
+
+
+		/*  焦点图*/
+
+		#index_page{
+			float: right;
+			display: block;
+			height: 16px;
+			padding: 1px 0;
+			margin-right: 4px;
+		}
+		#index_page *{
+			float: left;
+			display: inline;
+			line-height: 16px;
+			border:1px solid #b6cfcd;
+			text-align: center;
+			padding: 0;
+			margin: 0 2px;
+		}
+
+		#index_page strong{
+			background: #009a91;
+			color: #fff;
+			width: 16px;
+		}
+
+		#index_page span{
+			color: #64b8ef;
+			padding: 3px 0 0 0;
+			border:0;
+			cursor: pointer;//设置放上显示小手
+		}
+		#index_page a{
+			width: 16px;
+			color: #64b8ef;
+			text-decoration: none;
+		}
+
+		h2{
+			text-align: center;
+		}
+
+		#focusPic1{
+			margin-top: 10px;
+		}
+		#focusPic2{
+			margin-top: 10px;
+		}
+		#focusPic3{
+			margin-top: 10px;
+		}
+

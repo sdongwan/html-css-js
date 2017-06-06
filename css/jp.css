@@ -1,0 +1,114 @@
+.main-jp{
+			width: 980px;
+			height: 590px;
+			overflow: hidden; //内容超出部分隐藏
+			border:1px solid #aaa;
+			margin:10px auto;
+		}
+
+		.main-jp h1.title{
+
+			font: normal 24px "微软雅黑";
+			height: 45px;
+			margin-left: 10px;
+			text-align: left;
+
+		}
+
+		.main-jp {
+
+			background: none;
+		}
+
+		.main-jp ul.fright{
+
+			width: 980px;
+			height: 525px;
+		}
+
+
+		.main-jp ul.fright li {
+			list-style: none;
+			float: left;
+			width: 243px;
+			height: 267px;
+		}
+		.main-jp ul.fright li a{
+text-decoration: none;
+			float: right;
+			display: inline-block;
+			width: 225px;
+			height: 255px;
+			border:1px solid #ccc;
+
+		}
+
+		.main-jp ul.fright li a div.pic , .main-jp ul.fright li a div.pic img{
+			width: 225px;
+			height: 150px;
+		}
+
+
+
+		.main-jp ul.fright li a div.pic{
+			overflow: hidden;
+		}
+
+
+		.main-jp ul.fright li a h3{
+			font: normal; 18px "微软雅黑";
+			height: 40px;
+			line-height: 50px;
+			color: #666;
+			text-decoration: none;
+			padding:0px 10px;
+			overflow: hidden;
+
+		}
+
+		.main-jp ul.fright li a h4{
+			font: normal; 12px "微软雅黑";
+			height: 40px;
+			line-height: 20px;
+			color: #999;
+			text-indent: 10px;
+			text-decoration: none;
+			overflow: hidden;
+
+		}
+
+		.main-jp ul.fright li a p{
+			padding: 0 10px;
+			height: 30px;
+		}
+
+		.main-jp ul.fright li a p b{
+			font-size: 14px;
+			color: #0097e0;
+			line-height: 40px;
+		}
+
+		.main-jp ul.fright li a p span{
+
+			font: 12px;
+			color: #f90;
+
+		}
+		.main-jp ul.fright li a p span em{
+			font: normal 26px "Arial";
+		}
+
+
+		.main-jp ul.fright li a:hover div.pic img{
+			transform: scale(1.2,1.2);
+			-webkit-transform:scale(1.2,1.2);
+			-moz-transform:scale(1.2,1.2);
+			-ms-transform:scale(1.2,1.2);
+			-o-transform:scale(1.2,1.2);
+			transition: all 0.3s ease;
+			-webkit-transition:all 0.3s ease;
+			-moz-transition:all 0.3s ease;
+			-ms-transition:all 0.3s ease;
+			-o-transition:all 0.3s ease;
+
+		}
